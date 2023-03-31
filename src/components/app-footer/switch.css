@@ -1,0 +1,21 @@
+.why-appear, .why-enter{
+    transform: translateY(263px);
+    /* opacity: 0; */
+}
+
+.why-appear-active, .why-enter-active{
+    transform: translateY(0);
+    /* opacity: 1; */
+    transition: all 0.5s ease;
+}
+
+.why-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.why-exit-active{
+    opacity: 0;
+    transition: all 0.5s ease;
+    transform: translateY(263px);
+}
